@@ -7,6 +7,7 @@ public class Main {
   
   public static void main(String[] args) {
 String hostname = args.length > 0 ? args[0] : "time.nist.gov";
+    print("hi this is me testing")
     Socket socket = null;
     try {
       socket = new Socket(hostname, 13);
